@@ -1,0 +1,81 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: -1px;
+    align-items: stretch;
+    width: 100%;
+}
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header1{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 20px;
+}
+.header3{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    margin-right: 200px;
+    
+}
+.header3 div{
+    margin: 10px;
+}
+
+.item1{
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    gap: 20px;
+
+}
+.item1 div{
+    flex: 1 1 0;
+}
+.buttons{
+    width: 120px;
+    height: 35px;
+}
+button{
+    background-color: #3882F6;
+    border: 0.2px solid rgba(0, 0, 0, 0.747);
+    border-radius: 10px;
+    color: #E5E7EB;
+
+}
+.heroMain{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.heroSecondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.item2{
+    background-color: white;
+}
+.item3{
+    background-color: #E5E7EB;
+}
+.item4{
+    background-color: #1F2937;
+}
+.footer{
+    background-color: #1F2937;
+}
